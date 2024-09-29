@@ -1,7 +1,3 @@
----
-next: true
----
-
 # Aroma
 
 Aroma is a work-in-progress environment and the successor to Tiramisu.
@@ -36,8 +32,19 @@ With the `homebrew_on_menu` plugin, WUHB files can be directly launched from the
 ## What are the limitations?
 
 Due to technical limitations, a lot of old homebrew applications will no longer work with Aroma.  
-This includes all `.elf` homebrews, but also some `.rpx` homebrews(i.e. RetroArch), which don't implement necessary functionality properly.  
+This includes all `.elf` homebrews, but also some `.rpx` homebrews (i.e. RetroArch), which don't implement necessary functionality properly.  
 These homebrews need to be updated with support for Aroma. To run old homebrews you need to boot the Tiramisu environment.  
 Launching homebrews through the now outdated Homebrew Launcher is no longer possible with Aroma.  
 
 Besides the limitations mentioned above, note that Aroma is still a beta release. Not everything has been tested yet, and additional issues might be discovered. This doesn't necessarily mean Aroma is unstable, but there is a chance that you may experience something not working properly.
+
+## Select a Method
+
+There are two common entrypoints into Aroma: PayloadLoader and ISFShax.
+
+::: tip
+
+It is recommended for most users to use PayloadLoader, as the ISFShax method is suited for advanced users.
+
+:::
+
